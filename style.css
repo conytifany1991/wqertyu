@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+
+header h1 {
+    text-align: center;
+}
+
+main h1 {
+    border: 2px solid violet;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.sushi, .roll, .onigiri, .ramen{
+    opacity: 0.3;
+}
+
+
+.sushi:hover, .roll:hover, .onigiri:hover, .ramen:hover {
+   opacity: 1; 
+   width: 379px;
+    transition: 1s ease-out;
+    padding: 5px;
+}
+
+footer:hover{
+    opacity: 0.5;
+    box-shadow: 0 5px 5px 5px;
+    background-color: hsl(32, 100%, 51%);
+    color: white;
+    font-size: 20px;
+    transition: 2s ease-in;
+}
